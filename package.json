@@ -4,7 +4,7 @@
   "description": "В этом учебном проекте реализована возможность просмотра новостей от различных интерент-изданий \r по интересующей пользователя тематике за последнюю неделю. Также у пользователя есть возможность \r просмотреть количество новостей по данной тематике за каждый из последних семи дней.",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
