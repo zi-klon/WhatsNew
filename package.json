@@ -1,0 +1,26 @@
+{
+  "name": "whatsnew",
+  "version": "0.0.1",
+  "description": "В этом учебном проекте реализована возможность просмотра новостей от различных интерент-изданий \r по интересующей пользователя тематике за последнюю неделю. Также у пользователя есть возможность \r просмотреть количество новостей по данной тематике за каждый из последних семи дней.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zi-klon/WhatsNew.git"
+  },
+  "author": "Mikhail Danilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zi-klon/WhatsNew/issues"
+  },
+  "homepage": "https://github.com/zi-klon/WhatsNew#readme",
+  "devDependencies": {
+    "cross-env": "6.0.3",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
