@@ -5,11 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WhatsNew</title>
+    <link rel="stylesheet" href="../vendor/normalize.css">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
   </head>
 
-  <body>
-    <h1 class="header">Что в мире творится?</h1>
+  <body class="body">
+
+    <header class="header">
+      <h2 class="header__title">NewsAnalyzer</h2>
+      <div class="header__menu">
+        <nav class="header__refs">
+          <a href="#" class="header__ref">Главная</a>
+          <a href="#" class="header__ref header__ref_no-active">О проекте</a>
+        </nav> 
+        <div class="header__decor header__decor_active header__decor_right"></div>
+        <div class="header__decor header__decor_active header__decor_left"></div>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <section class="search">
+        <h1 class="search__header">Что в мире творится?</h1>
+        <p class="search__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
+        <form action="" class="search__form">
+          <input type="text" class="search__input">
+          <button class="search__button">Искать</button>
+        </form>
+      </section>
+
+      <section class="preloader"></section>
+
+      <section class="result">
+        <div class="result__headers">
+          <h3 class="result__header">Результаты поиска</h3>
+          <a href="#" class="result__ref">Посмотреть аналитику</a>
+        </div>
+        <div class="result__container">
+          <div class="result__item">
+            <img src="" alt="" class="result__image">
+            <p class="result__date">2 августа, 2019</p>
+            <h4 class="result__title">Национальное достояние – парки</h4>
+            <p class="result__text"></p>
+            <p class="result__media"></p>
+          </div>
+        </div>
+        <div class="result__add">
+          <button class="result__button">Показать ещё</button>
+        </div>
+      </section>
+
+      <section class="author">
+        <img src="" alt="" class="author__image">
+        <div class="author__about">
+          <h3 class="author__title">Об авторе</h3>
+          <p class="author__info"> Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.</p>
+          <p class="author__info">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright"></p>
+      <nav class="footer__menu">
+        <a href="" class="footer__ref">Главная</a>
+        <a href="" class="footer__ref">О проекте</a>
+        <a href="" class="footer__ref">Яндекс.Практикум</a>
+      </nav>
+      <nav class="footer__social">
+        <a href="" class="footer__icon">
+          <img src="" alt="GitHub">
+        </a>
+        <a href="" class="footer__icon">
+          <img src="" alt="VKontakte">
+        </a>
+      </nav>
+    </footer>
+
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
   </body>
 </html>

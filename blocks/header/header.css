@@ -1,0 +1,26 @@
+@import url('./__title/header__title.css');
+@import url('./__menu/header__menu.css');
+@import url('./__refs/header__refs.css');
+@import url('./__ref/header__ref.css');
+@import url('./__ref/_no-active/header__ref_no-active.css');
+@import url('./__decor/header__decor.css');
+@import url('./__decor/_active/header__decor_active.css');
+@import url('./__decor/_left/header__decor_left.css');
+@import url('./__decor/_right/header__decor_right.css');
+
+.header {
+  width: 1440px;
+  height: 80px;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #ffffff;
+  background: grey;
+}
+
+@media all and (max-width: 424px){
+  .header {
+    width: 100%;
+  }
+}
