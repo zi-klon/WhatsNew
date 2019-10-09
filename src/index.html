@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WhatsNew</title>
-    <link rel="stylesheet" href="../vendor/normalize.css">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
   </head>
 
@@ -18,7 +17,7 @@
           <a href="#" class="header__ref">Главная</a>
           <a href="#" class="header__ref header__ref_no-active">О проекте</a>
         </nav> 
-        <div class="header__decor header__decor_active header__decor_right"></div>
+        <div class="header__decor header__decor_right"></div>
         <div class="header__decor header__decor_active header__decor_left"></div>
       </div>
     </header>
@@ -26,11 +25,13 @@
     <main class="content">
 
       <section class="search">
-        <h1 class="search__header">Что в мире творится?</h1>
+        <h1 class="search__title">Что в мире<br>творится?</h1>
         <p class="search__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
-        <form action="" class="search__form">
-          <input type="text" class="search__input">
-          <button class="search__button">Искать</button>
+        <div class="search__form-container">
+          <form action="" class="search__form">
+            <input type="text" class="search__input" placeholder="Введите тему новости">
+            <button class="search__button">Искать</button>
+          </div>    
         </form>
       </section>
 

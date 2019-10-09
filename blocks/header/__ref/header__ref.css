@@ -6,3 +6,9 @@
 .header__ref:first-of-type {
   margin-right: 34px;
 }
+
+@media all and (max-width: 425px){
+  .header__ref:first-of-type {
+    margin-right: 7%;
+  }
+}

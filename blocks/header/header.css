@@ -9,6 +9,11 @@
 @import url('./__decor/_right/header__decor_right.css');
 
 .header {
+  position: relative;
+  top: 80px;
+
+  margin-top: -80px;
+
   width: 1440px;
   height: 80px;
 
@@ -16,11 +21,28 @@
   justify-content: space-between;
 
   color: #ffffff;
-  background: grey;
+
+  border-bottom: 1px solid rgba(238, 231, 231, 0.3);
 }
 
-@media all and (max-width: 424px){
+@media all and (max-width: 1450px){
   .header {
     width: 100%;
+  }
+}
+
+@media all and (max-width: 1024px){
+  .header {
+    height: 64px;
+    top: 64px;
+    margin-top: -64px;
+  }
+}
+
+@media all and (max-width: 425px){
+  .header {
+    height: 56px;
+    top: 56px;
+    margin-top: -56px;    
   }
 }
