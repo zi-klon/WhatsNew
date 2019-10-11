@@ -1,0 +1,12 @@
+@import url('./_left/not-found__eye__left.css');
+@import url('./_right/not-found__eye_right.css');
+
+.not-found__eye {
+  width: 1px;
+  height: 1px;
+
+  position: absolute;
+
+  border: 1px solid #D1D2D6;
+  border-radius: 50%;
+}

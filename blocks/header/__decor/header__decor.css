@@ -1,3 +1,6 @@
+@import url('./_active/header__decor_active.css');
+@import url('./_right/header__decor_right.css');
+@import url('./_left/header__decor_left.css');
 .header__decor {
   width: 100%;
 }

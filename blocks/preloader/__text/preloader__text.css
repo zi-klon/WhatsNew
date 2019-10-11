@@ -1,0 +1,10 @@
+.preloader__text {
+  margin: 24px 0 0 0;
+}
+
+@media all and (max-width: 768px) {
+  .preloader__text {
+    margin-top: 12px;
+  }
+}
+

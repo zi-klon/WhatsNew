@@ -14,8 +14,8 @@
       <h2 class="header__title">NewsAnalyzer</h2>
       <div class="header__menu">
         <nav class="header__refs">
-          <a href="#" class="header__ref">Главная</a>
-          <a href="#" class="header__ref header__ref_no-active">О проекте</a>
+          <a href="#" class="header__ref link">Главная</a>
+          <a href="#" class="header__ref header__ref_no-active link">О проекте</a>
         </nav> 
         <div class="header__decor header__decor_right"></div>
         <div class="header__decor header__decor_active header__decor_left"></div>
@@ -35,25 +35,56 @@
         </form>
       </section>
 
-      <section class="preloader"></section>
-
       <section class="result">
         <div class="result__headers">
-          <h3 class="result__header">Результаты поиска</h3>
-          <a href="#" class="result__ref">Посмотреть аналитику</a>
+          <h3 class="result__title">Результаты поиска</h3>
+          <a href="#" class="result__ref link">Посмотреть аналитику</a>
         </div>
-        <div class="result__container">
+        <div class="result__item-container">
           <div class="result__item">
-            <img src="" alt="" class="result__image">
+            <img src="<%=require('../images/image_01.jpg')%>" alt="image-1" class="result__image">
             <p class="result__date">2 августа, 2019</p>
-            <h4 class="result__title">Национальное достояние – парки</h4>
-            <p class="result__text"></p>
-            <p class="result__media"></p>
+            <h4 class="result__item-title">Национальное достояние – парки</h4>
+            <p class="result__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+            <p class="result__media">ЛЕНТА.РУ</p>
           </div>
+          <div class="result__item">
+            <img src="<%=require('../images/image_04.jpg')%>" alt="image-2" class="result__image">
+            <p class="result__date">2 августа, 2019</p>
+            <h4 class="result__item-title">Лесные огоньки: история одной фотографии</h4>
+            <p class="result__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
+            <p class="result__media">МЕДУЗА</p>
+          </div>
+          <div class="result__item">
+            <img src="<%=require('../images/image_05.jpg')%>" alt="image-3" class="result__image">
+            <p class="result__date">2 августа, 2019</p>
+            <h4 class="result__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
+            <p class="result__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+            <p class="result__media">РИА</p>
+          </div>
+          <div class="result__item">
+            <img src="<%=require('../images/image_06.jpg')%>" alt="image-4" class="result__image">
+            <p class="result__date">2 августа, 2019</p>
+            <h4 class="result__item-title">Национальное достояние – парки</h4>
+            <p class="result__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+            <p class="result__media">ДЗЕН</p>
+          </div>
+          <div class="result__item">
+            <img src="<%=require('../images/image_07.jpg')%>" alt="image-5" class="result__image">
+            <p class="result__date">2 августа, 2019</p>
+            <h4 class="result__item-title">Лесные огоньки: история одной фотографии</h4>
+            <p class="result__text">Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.</p>
+            <p class="result__media">АФИША</p>
+          </div>
+          <div class="result__item">
+            <img src="<%=require('../images/image_08.jpg')%>" alt="image-6" class="result__image">
+            <p class="result__date">2 августа, 2019</p>
+            <h4 class="result__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
+            <p class="result__text">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+            <p class="result__media">МЕДИАЗОНА</p>
+          </div>          
         </div>
-        <div class="result__add">
-          <button class="result__button">Показать ещё</button>
-        </div>
+        <button class="result__button">Показать ещё</button>
       </section>
 
       <section class="author">
@@ -87,3 +118,20 @@
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
   </body>
 </html>
+
+<template>
+  <section class="preloader">
+    <i class="preloader__circle"></i>
+    <p class="preloader__text">Идёт поиск новостей...</p>
+  </section>
+
+  <section class="not-found">
+    <div class="not-found__picture-container">
+      <div class="not-found__picture"></div>
+      <div class="not-found__eye not-found__eye_left"></div>
+      <div class="not-found__eye not-found__eye_right"></div>
+    </div>
+    <h3 class="not-found__title">Ничего не найдено</h3>
+    <p class="not-found__subtitle">К сожалению по вашему запросу ничего не найдено.</p>
+  </section>
+</template>

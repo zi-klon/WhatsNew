@@ -1,6 +1,6 @@
+@import url('./_no-active/header__ref_no-active.css');
 .header__ref {
   color: #ffffff;
-  text-decoration: none;
 }
 
 .header__ref:first-of-type {

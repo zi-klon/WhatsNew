@@ -9,7 +9,7 @@
   border-radius: 100px;
   border: none;
 
-  background: #2F71E5;
+  background-color: #2F71E5;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -18,14 +18,16 @@
   color: #ffffff;
 
   cursor: pointer;
+  transition: background-color 0.5s linear;
 }
 
 .search__button:hover {
-  background: #347eff ;
+  background-color: #347eff;
 }
 
 .search__button:active, :focus {
-  background: #2A65CC;
+  background-color: #2A65CC;
+  color: #ffffff;
 }
 
 @media all and (max-width: 1280px){

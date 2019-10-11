@@ -1,0 +1,57 @@
+.not-found__picture {
+  position: absolute;
+  top: 0;
+  left: 4px;
+    
+  width: 74px;
+  height: 74px;
+
+  border: 1px solid #D1D2D6;
+  border-radius: 50%;
+}
+
+.not-found__picture::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-right: 1px solid #D1D2D6;
+  transform: rotate(-45deg);
+
+  height: 30px;
+
+  top: 60px;
+  left: 74px;
+}
+
+.not-found__picture::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border-left: 1px solid #D1D2D6;
+  transform: rotate(90deg);
+  border-radius: 50%;
+  
+  height: 30px;
+  width: 30px;
+
+  top: 43px;
+  left: 21px
+}
+
+@media all and (max-width: 768px) {
+  .not-found__picture {
+    height: 50px;
+    width: 50px;
+  }
+  .not-found__picture::after {
+    height: 20px;
+    top: 39px;
+    left: 50px;
+  }
+  .not-found__picture::before {
+    height: 20px;
+    width: 15px;
+    top: 28px;
+    left: 17px;
+  }
+}

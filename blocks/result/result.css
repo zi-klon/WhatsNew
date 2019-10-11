@@ -1,0 +1,28 @@
+@import url('./__ref/result__ref.css');
+@import url('./__headers/result__headers.css');
+@import url('./__title/result__title.css');
+@import url('./__item-container/result__item-container.css');
+@import url('./__item-title/result__item-title.css');
+@import url('./__item/result__item.css');
+@import url('./__image/result__image.css');
+@import url('./__date/result__date.css');
+@import url('./__item-title/result__item-title.css');
+@import url('./__text/result__text.css');
+@import url('./__media/result__media.css');
+@import url('./__button/result__button.css');
+
+.result {
+  width: 1440px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #F5F6F7;
+}
+
+@media all and (max-width: 1450px) {
+  .result {
+    width: 100%;
+  }
+}
