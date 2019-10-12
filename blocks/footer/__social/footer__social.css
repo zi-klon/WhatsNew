@@ -1,0 +1,18 @@
+.footer__social {
+  display: flex;
+  align-items: baseline;
+  position: absolute;
+  right: 104px;
+}
+
+@media all and (max-width: 1450px){
+  .footer__social {
+    right: 5%;
+  }
+}
+
+@media all and (max-width: 650px){
+  .footer__social {
+    top: 35px;
+  }
+}

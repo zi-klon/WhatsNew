@@ -1,0 +1,24 @@
+.author__info {
+  margin: 24px 0 0;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media all and (max-width: 1028px) {
+ .author__info {
+    margin-top: 12px;
+  }
+  .author__info:last-of-type {
+    margin-top: 0;
+  } 
+}
+
+@media all and (max-width: 650px) {
+  .author__info {
+    margin-top: 16px;
+  }
+}

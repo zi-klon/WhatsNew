@@ -1,0 +1,34 @@
+.author__image {
+  margin: 0 0 80px 104px;
+
+  width: 464px;
+  
+  border-radius: 50%;
+
+  background: cover;
+}
+
+@media all and (max-width: 1450px) {
+  .author__image {
+    width: 30%;
+  }
+}
+
+@media all and (max-width: 1450px) {
+  .author__image {
+    margin-left: 5%;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .author__image {
+    width: 50%;
+    margin: 20px 0 0;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .author__image {
+    width: 85%;
+  }
+}
