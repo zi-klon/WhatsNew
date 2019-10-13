@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Analytics</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="icon" href="<%=require('')%>">
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h2 class="header__title">NewsAnalyzer</h2>
+      <div class="header__menu">
+        <nav class="header__refs">
+          <a href="#" class="header__ref link">Главная</a>
+          <a href="../pages/about.html" class="header__ref header__ref_no-active link">О проекте</a>
+        </nav> 
+        <div class="header__decor header__decor_right"></div>
+        <div class="header__decor header__decor_active header__decor_left"></div>
+      </div>
+    </header>
+    
+    <main class="content">
+      <section class="resume">
+        <h3 class="resume__pages">Главная/Аналитика</h3>
+        <h2 class="resume__title">Вы спросили: &laquo;Путешествия&raquo;</h2>
+        <p class="resume__amount">Новостей за неделю: 34324</p>
+        <p class="resume__amount">Упоминаний в заголовкахЖ 235</p>
+      </section>
+
+      <section class="stat">
+        <h3 class="stat__title">Аналитика по дням</h3>        
+        <div class="stat_table">
+          <h4 class="stat__date-title">ДАТА(АВГУСТ)</h4>
+          <h4 class="stat__number-title">КОЛ-ВО УПОМИНАНИЙ</h4>
+          <div class="stat__line"></div>
+          <h4 class="stat__mark">0</h4>
+          <h4 class="stat__mark">25</h4>
+          <h4 class="stat__mark">50</h4>
+          <h4 class="stat__mark">75</h4>
+          <h4 class="stat__mark">100</h4>
+          <p class="stat__date">19, пн</p>
+          <div class="stat__number">15</div>
+          <p class="stat__date">20, вт</p>
+          <div class="stat__number">18</div>
+          <p class="stat__date">21, ср</p>
+          <div class="stat__number">11</div>
+          <p class="stat__date">22, чт</p>
+          <div class="stat__number">39</div>
+          <p class="stat__date">23, пт</p>
+          <div class="stat__number">45</div>
+          <p class="stat__date">24, сб</p>
+          <div class="stat__number">73</div>
+          <p class="stat__date">25, вс</p>
+          <div class="stat__number">34</div>                                                            
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2019 Supersite</p>
+      <nav class="footer__menu">
+        <a href="" class="footer__link link">Главная</a>
+        <a href="" class="footer__link link">О проекте</a>
+        <a href="" class="footer__link link">Яндекс.Практикум</a>
+      </nav>
+      <nav class="footer__social">
+        <a href="#" class="footer__icon link">
+          <img src="<%=require('../images/Git.jpg')%>" alt="GitHub">
+        </a>
+        <a href="#" class="footer__icon link">
+          <img src="<%=require('../images/vk.png')%>" alt="VKontakte">
+        </a>
+      </nav>
+    </footer>    
+  </body>
+</html> 

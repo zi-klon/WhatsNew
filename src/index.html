@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Дипломный учебный проект, выполненный студентом Яндекс.Практикума">
+    <meta name="keywords" content="HTML-5, CSS-3, JavaScript, ES6, Webpack, Git, gh-pages">
+    <meta name="author" content="Михаил Данилов">
     <title>WhatsNew</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="icon" href="<%=require('../images/main.png')%>">
   </head>
 
   <body class="body">
@@ -15,7 +19,7 @@
       <div class="header__menu">
         <nav class="header__refs">
           <a href="#" class="header__ref link">Главная</a>
-          <a href="#" class="header__ref header__ref_no-active link">О проекте</a>
+          <a href="../pages/about.html" class="header__ref header__ref_no-active link">О проекте</a>
         </nav> 
         <div class="header__decor header__decor_right"></div>
         <div class="header__decor header__decor_active header__decor_left"></div>
@@ -29,7 +33,7 @@
         <p class="search__description">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</p>
         <div class="search__form-container">
           <form action="" class="search__form">
-            <input type="text" class="search__input" placeholder="Введите тему новости">
+            <input type="text" class="search__input" placeholder="Введите тему новости" required>
             <button class="search__button">Искать</button>
           </div>    
         </form>
@@ -38,7 +42,7 @@
       <section class="result">
         <div class="result__headers">
           <h3 class="result__title">Результаты поиска</h3>
-          <a href="#" class="result__ref link">Посмотреть аналитику</a>
+          <a href="../pages/analytics.html" class="result__ref link">Посмотреть аналитику</a>
         </div>
         <div class="result__item-container">
           <div class="result__item">
