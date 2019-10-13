@@ -1,0 +1,20 @@
+.stat__table {
+  width: 86%;
+  margin: 48px 0 80px 104px;
+  
+  display: grid;
+  grid-template-columns: 8.5% 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 17px 30px repeat(6, 80px) 30px;
+  grid-template-areas:
+    'datetitle numbertitle . . .'
+    'line line line line line' 
+    '. marks marks marks marks'
+    'date_1 number_1 number_1 number_1 number_1'
+    'date_2 number_2 number_2 number_2 number_2 '
+    'date_3 number_3 number_3 number_3 number_3'
+    'date_4 number_4 number_4 number_4 number_4'
+    'date_5 number_5 number_5 number_5 number_5'
+    'date_6 number_6 number_6 number_6 number_6'
+    'date_7 number_7 number_7 number_7 number_7'
+    '. marks_down marks_down marks_down marks_down';
+}

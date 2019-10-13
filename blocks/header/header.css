@@ -3,6 +3,7 @@
 @import url('./__refs/header__refs.css');
 @import url('./__ref/header__ref.css');
 @import url('./__decor/header__decor.css');
+@import url('./_white/header_white.css');
 
 .header {
   position: relative;

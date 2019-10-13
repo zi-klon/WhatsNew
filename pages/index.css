@@ -8,6 +8,8 @@
 @import url('../blocks/author/author.css');
 @import url('../blocks/footer/footer.css');
 
+@import url('../blocks/stat/stat.css');
+
 @font-face {
   font-family: 'Roboto';
   font-style: medium;

@@ -1,0 +1,6 @@
+.stat__line {
+  height: 1px;
+  background: #1a1b22;
+  width: 100%;
+  grid-area: line;
+}

@@ -1,0 +1,15 @@
+@import url('./__title/stat__title.css');
+@import url('./__table/stat__table.css');
+@import url('./__date-subtitle/stat__date-subtitle.css');
+@import url('./__number-subtitle/stat__number-subtitle.css');
+@import url('./__line/stat__line.css');
+@import url('./__marks/stat__marks.css');
+@import url('./__mark/stat__mark.css');
+@import url('./__date/stat__date.css');
+@import url('./__number/stat__number.css');
+
+
+.stat {
+  width: 1440px;
+  background: #f5f6f7;
+}

@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Analytics</title>
-    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="stylesheet" href="../pages/index.css">
     <link rel="icon" href="<%=require('')%>">
   </head>
 
   <body class="body">
-    <header class="header">
+    <header class="header header_white">
       <h2 class="header__title">NewsAnalyzer</h2>
       <div class="header__menu">
         <nav class="header__refs">
-          <a href="#" class="header__ref link">Главная</a>
-          <a href="../pages/about.html" class="header__ref header__ref_no-active link">О проекте</a>
+          <a href="#" class="header__ref header__ref_grey link">Главная</a>
+          <a href="../pages/about.html" class="header__ref header__ref_grey link">О проекте</a>
         </nav> 
         <div class="header__decor header__decor_right"></div>
-        <div class="header__decor header__decor_active header__decor_left"></div>
+        <div class="header__decor header__decor_left"></div>
       </div>
     </header>
     
@@ -27,34 +27,43 @@
         <h3 class="resume__pages">Главная/Аналитика</h3>
         <h2 class="resume__title">Вы спросили: &laquo;Путешествия&raquo;</h2>
         <p class="resume__amount">Новостей за неделю: 34324</p>
-        <p class="resume__amount">Упоминаний в заголовкахЖ 235</p>
+        <p class="resume__amount">Упоминаний в заголовках: 235</p>
       </section>
 
       <section class="stat">
         <h3 class="stat__title">Аналитика по дням</h3>        
-        <div class="stat_table">
-          <h4 class="stat__date-title">ДАТА(АВГУСТ)</h4>
-          <h4 class="stat__number-title">КОЛ-ВО УПОМИНАНИЙ</h4>
+        <div class="stat__table">
+          <h4 class="stat__date-subtitle">ДАТА,<br>(АВГУСТ)</h4>
+          <h4 class="stat__number-subtitle">КОЛ-ВО УПОМИНАНИЙ</h4>
           <div class="stat__line"></div>
-          <h4 class="stat__mark">0</h4>
-          <h4 class="stat__mark">25</h4>
-          <h4 class="stat__mark">50</h4>
-          <h4 class="stat__mark">75</h4>
-          <h4 class="stat__mark">100</h4>
-          <p class="stat__date">19, пн</p>
-          <div class="stat__number">15</div>
-          <p class="stat__date">20, вт</p>
-          <div class="stat__number">18</div>
-          <p class="stat__date">21, ср</p>
-          <div class="stat__number">11</div>
-          <p class="stat__date">22, чт</p>
-          <div class="stat__number">39</div>
-          <p class="stat__date">23, пт</p>
-          <div class="stat__number">45</div>
-          <p class="stat__date">24, сб</p>
-          <div class="stat__number">73</div>
-          <p class="stat__date">25, вс</p>
-          <div class="stat__number">34</div>                                                            
+          <div class="stat__marks">
+            <h4 class="stat__mark">0</h4>
+            <h4 class="stat__mark">25</h4>
+            <h4 class="stat__mark">50</h4>
+            <h4 class="stat__mark">75</h4>
+            <h4 class="stat__mark">100</h4>
+          </div>
+          <p class="stat__date stat__date_1">19, пн</p>
+          <div class="stat__number stat__number_1">15</div>
+          <p class="stat__date stat__date_2">20, вт</p>
+          <div class="stat__number stat__number_2">18</div>
+          <p class="stat__date stat__date_3">21, ср</p>
+          <div class="stat__number stat__number_3">11</div>
+          <p class="stat__date stat__date_4">22, чт</p>
+          <div class="stat__number stat__number_4">39</div>
+          <p class="stat__date stat__date_5">23, пт</p>
+          <div class="stat__number stat__number_5">45</div>
+          <p class="stat__date stat__date_6">24, сб</p>
+          <div class="stat__number stat__number_6">73</div>
+          <p class="stat__date stat__date_7">25, вс</p>
+          <div class="stat__number stat__number_7">34</div>
+          <div class="stat__marks stat__marks_down">
+            <h4 class="stat__mark">0</h4>
+            <h4 class="stat__mark">25</h4>
+            <h4 class="stat__mark">50</h4>
+            <h4 class="stat__mark">75</h4>
+            <h4 class="stat__mark">100</h4>
+          </div>                                                                       
         </div>
       </section>
     </main>
