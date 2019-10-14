@@ -1,0 +1,12 @@
+@import url('./__container/technologies__container.css');
+@import url('./__item-title/technologies__item-title.css');
+@import url('./__item/technologies__item.css');
+@import url('./__title/technologies__title.css');
+
+.technologies {
+  width: 1440px;
+
+  display: flex;
+
+  background: #f5f6f7;
+}

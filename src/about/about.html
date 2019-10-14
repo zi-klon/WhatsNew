@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
+    <link rel="icon" href="<%=require('../../images/about.png')%>">
+  </head>
+
+  <body class="body">
+    <header class="header header_white">
+      <h2 class="header__title">NewsAnalyzer</h2>
+      <div class="header__menu">
+        <nav class="header__refs">
+          <a href="../index.html" class="header__ref header__ref_grey link">Главная</a>
+          <a href="#" class="header__ref header__ref_black link">О проекте</a>
+        </nav> 
+        <div class="header__decor header__decor_right header__decor_black"></div>
+        <div class="header__decor header__decor_left"></div>
+      </div>
+    </header>
+    
+    <main class="content">
+
+      <section class="description">
+        <h2 class="description__title">Клиентам</h2>
+        <div class="description__text">
+          <p class="description__par">Этот сайт — дипломный проект студента Яндкс.Практикума. Его цель — показать, чему научился студент, и какими технологиями владеет.</p>
+          <p class="description__par">Вёртска сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым. Кроме того, добавлять новые страницы и функциальность проще и быстрее, чем в проектах, выполненных по другим методологиям. Также сайт проще и дешевле поддерживать.</p>
+          <p class="description__par">Карточки с новостям приходят с сервера и обрабатываются асихронно. То есть сайт продолжает работать, пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p>
+          <p class="description__par">При создании проекта была использона сборка технологией Webpack. Это современных подход к разработке сайтов. Код оптимизируется, а значит, сайт работает быстрее. Также настроена сайт работает в старых браузерах. Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением. А значит потенциальная аудитория возрастает.</p>
+          <p class="description__par">Проект был проверен экспертами Яндекс.Практикума. И если вашему бизесу нужен сайт, мы рекомендуем обратиться к этому студенту.</p>
+      </div>
+      </section>
+
+      <section class="technologies">
+        <h2 class="technologies__title">Используемые<br>технологии</h2>
+        <div class="technologies__container">
+          <div class="technologies__item">
+            <h3 class="technologies__item-title">HTML</h3>
+            <img src="<%=require('../../images/html5.png')%>" alt="HTML-5" class="technologies__image">
+          </div>
+          <div class="technologies__item">
+            <h3 class="technologies__item-title">CSS</h3>
+            <img src="<%=require('../../images/css3.png')%>" alt="CSS-3" class="technologies__image">
+          </div>
+          <div class="technologies__item">
+            <h3 class="technologies__item-title">JavaScript</h3>
+            <img src="<%=require('../../images/js.png')%>" alt="JavaScript" class="technologies__image">
+          </div>
+          <div class="technologies__item">
+            <h3 class="technologies__item-title">Webpack</h3>
+            <img src="<%=require('../../images/wp.png')%>" alt="Webpack" class="technologies__image">
+          </div>
+        </div>
+      </section>
+
+      <section class="author">
+        <img src="<%=require('../../blocks/author/__image/me.jpg')%>" alt="author" class="author__image">
+        <div class="author__about">
+          <h3 class="author__title">Об авторе</h3>
+          <p class="author__info"> Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.</p>
+          <p class="author__info">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам</p>
+        </div>
+      </section>
+
+      <section class="commits">
+        <div class="result__headers">
+          <h3 class="result__title">История коммитов из GitHub</h3>
+          <a href="#" class="result__ref link">Открыть в GitHub</a>
+        </div>
+        <div class="commits-container">
+              
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2019 Supersite</p>
+      <nav class="footer__menu">
+        <a href="../index.html" class="footer__link link">Главная</a>
+        <a href="#" class="footer__link link">О проекте</a>
+        <a href="https://praktikum.yandex.ru" class="footer__link link" target="_blank">Яндекс.Практикум</a>
+      </nav>
+      <nav class="footer__social">
+        <a href="https://github.com/zi-klon" class="footer__icon link" target="_blank">
+          <img src="<%=require('../../images/git.jpg')%>" alt="GitHub">
+        </a>
+        <a href="https://vk.com/ziklon17" class="footer__icon link" target="_blank">
+          <img src="<%=require('../../images/vk.png')%>" alt="VKontakte">
+        </a>
+      </nav>
+    </footer>
+
+    <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+  </body>
+</html>  

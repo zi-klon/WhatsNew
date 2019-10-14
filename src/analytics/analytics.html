@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Analytics</title>
-    <link rel="stylesheet" href="../pages/index.css">
-    <link rel="icon" href="<%=require('')%>">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.analytics.css %>">
+    <link rel="icon" href="">
   </head>
 
   <body class="body">
@@ -15,7 +15,7 @@
       <div class="header__menu">
         <nav class="header__refs">
           <a href="#" class="header__ref header__ref_grey link">Главная</a>
-          <a href="../pages/about.html" class="header__ref header__ref_grey link">О проекте</a>
+          <a href="#" class="header__ref header__ref_grey link">О проекте</a>
         </nav> 
         <div class="header__decor header__decor_right"></div>
         <div class="header__decor header__decor_left"></div>
@@ -33,7 +33,7 @@
       <section class="stat">
         <h3 class="stat__title">Аналитика по дням</h3>        
         <div class="stat__table">
-          <h4 class="stat__date-subtitle">ДАТА,<br>(АВГУСТ)</h4>
+          <h4 class="stat__date-subtitle">ДАТА<br>(АВГУСТ)</h4>
           <h4 class="stat__number-subtitle">КОЛ-ВО УПОМИНАНИЙ</h4>
           <div class="stat__line"></div>
           <div class="stat__marks">
@@ -77,12 +77,14 @@
       </nav>
       <nav class="footer__social">
         <a href="#" class="footer__icon link">
-          <img src="<%=require('../images/Git.jpg')%>" alt="GitHub">
+          <img src="" alt="GitHub">
         </a>
         <a href="#" class="footer__icon link">
-          <img src="<%=require('../images/vk.png')%>" alt="VKontakte">
+          <img src="" alt="VKontakte">
         </a>
       </nav>
-    </footer>    
+    </footer>
+    
+    <script src="<%= htmlWebpackPlugin.files.chunks.analytics.entry %>"></script>
   </body>
 </html> 

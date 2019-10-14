@@ -7,8 +7,10 @@
 @import url('../blocks/link/link.css');
 @import url('../blocks/author/author.css');
 @import url('../blocks/footer/footer.css');
-
 @import url('../blocks/stat/stat.css');
+@import url('../blocks/description/description.css');
+@import url('../blocks/technologies/technologies.css');
+@import url('../blocks/commits/commits.css');
 
 @font-face {
   font-family: 'Roboto';

@@ -12,11 +12,12 @@
   color: #B6BCBF;
 }
 
-.search__input:active, :focus {
+.search__input:focus, :active {
   outline: 0;
   outline-offset: 0;
   color: #1A1B22;
 }
+
 @media all and (max-width: 425px){
   .search__input {
     width: 90%;
