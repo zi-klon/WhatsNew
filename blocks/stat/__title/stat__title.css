@@ -8,3 +8,23 @@
   line-height: 30px;
   color: #1a1b22
 }
+
+@media all and (max-width: 1450px){
+  .stat__title{
+    margin-left: 5%;
+  }
+}
+
+@media all and (max-width: 1024px){
+  .stat__title{
+    margin-top: 40px;
+  }
+}
+
+@media all and (max-width: 425px){
+  .stat__title{
+    margin-top: 24px;
+    font-size: 22px;
+    line-height: 34px;
+  }
+}

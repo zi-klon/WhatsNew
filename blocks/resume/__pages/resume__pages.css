@@ -1,0 +1,21 @@
+.resume__pages {
+  margin: 40px 0 0 104px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media all and (max-width: 1450px){
+  .resume__pages {
+    margin-left: 5%;
+  }
+}
+
+@media all and (max-width: 425px){
+  .resume__pages {
+    display: none;
+  }
+}

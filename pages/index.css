@@ -11,6 +11,7 @@
 @import url('../blocks/description/description.css');
 @import url('../blocks/technologies/technologies.css');
 @import url('../blocks/commits/commits.css');
+@import url('../blocks/resume/resume.css');
 
 @font-face {
   font-family: 'Roboto';

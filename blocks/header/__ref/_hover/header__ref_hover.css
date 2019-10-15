@@ -1,0 +1,8 @@
+.header__ref_hover {
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+}
+
+.header__ref_hover:hover, :focus {
+  color: #1a1b22;
+}

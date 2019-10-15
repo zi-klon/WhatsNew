@@ -13,3 +13,9 @@
   width: 1440px;
   background: #f5f6f7;
 }
+
+@media all and (max-width: 1450px){
+  .stat {
+    width: 100%;
+  }
+}

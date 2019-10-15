@@ -7,7 +7,15 @@
 @import url('./_7/stat__number_7.css');
 
 .stat__number {
-  height: 24px;
+  height: 21px;
   background: #2f71e5;
   color: #ffffff;
+  padding-left: 6px;
+  padding-top: 6px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
 }

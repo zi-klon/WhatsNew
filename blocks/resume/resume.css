@@ -1,0 +1,18 @@
+@import url('./__element/resume__element.css');
+@import url('./__list/resume__list.css');
+@import url('./__pages/resume__pages.css');
+@import url('./__tilte/resume__title.css');
+@import url('./__page/resume__page.css');
+@import url('./__bold/resume__bold.css');
+
+.resume {
+  width: 1440px;
+
+  background: #ffffff;
+}
+
+@media all and (max-width: 1450px){
+  .resume {
+    width: 100%;
+  }
+}
