@@ -6,3 +6,8 @@
 .link:hover {
   opacity: 0.5;
 }
+
+.link:active, :focus {
+  opacity: 0.5;
+  background: inherit;
+}

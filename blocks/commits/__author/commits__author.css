@@ -1,0 +1,13 @@
+.commits__author {
+  margin: 0;
+
+  position: relative;
+  top: 5px;
+
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1a1b22;
+}

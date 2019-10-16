@@ -8,13 +8,13 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    'index': './src/index/index.js',
-    'about': './src/about/about.js',
-    'analytics': './src/analytics/analytics.js'
+    index: './src/index/index.js',
+    about: './src/about/about.js',
+    analytics: './src/analytics/analytics.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'pages/[name]/[name].[chunkhash].js'
+    filename: './pages/[name].[chunkhash].js'
   },
   module: {
   rules: [
@@ -45,7 +45,7 @@ module.exports = {
     },
     plugins: [
       new MiniCssExtractPlugin({
-      filename: 'pages/[name]/[name].[contenthash].css',
+      filename: './pages/[name].[contenthash].css',
       }),
       new OptimizeCssAssetsPlugin({
         assetNameRegExp: /\.css$/g,

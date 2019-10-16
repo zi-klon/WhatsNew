@@ -1,0 +1,7 @@
+.commits__commit {
+  padding: 24px;
+  height: 240px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}

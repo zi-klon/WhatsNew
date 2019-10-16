@@ -13,9 +13,9 @@
 }
 
 .search__input:focus, :active {
-  outline: 0;
-  outline-offset: 0;
+  outline: none;
   color: #1A1B22;
+  background: #ffffff;
 }
 
 @media all and (max-width: 425px){

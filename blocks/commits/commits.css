@@ -1,3 +1,12 @@
+@import url('./__container/commits__container.css');
+@import url('./__commit/commits__commit.css');
+@import url('./__date/commits__date.css');
+@import url('./__author-info/commits__author-info.css');
+@import url('./__author/commits__author.css');
+@import url('./__image/commits__image.css');
+@import url('./__mail/commits__mail.css');
+@import url('./__text/commits__text.css');
+
 .commits {
   width: 1440px;
   display: flex;

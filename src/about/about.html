@@ -71,9 +71,40 @@
           <h3 class="result__title">История коммитов из GitHub</h3>
           <a href="#" class="result__ref link">Открыть в GitHub</a>
         </div>
-        <div class="commits-container">
-              
-        </div>
+        <div class="commits__container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="commits__commit swiper-slide">
+              <p class="commits__date">14 августа 2019</p>
+              <div class="commits__author-info">
+                <img src="<%=require('../../blocks/commits/__image/commit-01.png')%>" class="commits__image"></img>
+                <h3 class="commits__author">Антон Долинин</h3>
+                <h5 class="commits__mail">anton@yandex.ru</h5>
+              </div>  
+              <p class="commits__text">Emmet (formerly Zen Coding) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow</p>
+            </div>
+            <div class="commits__commit swiper-slide">
+              <p class="commits__date">14 августа 2019</p>
+              <div class="commits__author-info">
+                <img src="<%=require('../../blocks/commits/__image/commit-02.png')%>" class="commits__image"></img>
+                <h3 class="commits__author">Мария Фёдорова</h3>
+                <h5 class="commits__mail">mariiifed@yandex.ru</h5>
+              </div>  
+              <p class="commits__text">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open Tools > Plugins > Available plugins and find and install Emmet plugin.w</p>
+            </div>
+            <div class="commits__commit swiper-slide">
+              <p class="commits__date">14 августа 2019</p>
+              <div class="commits__author-info">
+                <img src="<%=require('../../blocks/commits/__image/commit-03.png')%>" class="commits__image"></img>
+                <h3 class="commits__author">Инга Иванова</h3>
+                <h5 class="commits__mail">ingaiva@yandex.ru</h5>
+              </div>  
+              <p class="commits__text">With Emmet, you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb...</p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>  
+          <div class="swiper-button-next"></div>
+        </div>            
       </section>
     </main>
 
@@ -94,6 +125,6 @@
       </nav>
     </footer>
 
-    <script src="<%=htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+    <script src="<%=htmlWebpackPlugin.files.chunks.about.entry %>" type="module" ></script>
   </body>
 </html>  
