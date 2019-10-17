@@ -10,3 +10,15 @@
 
   background: #f5f6f7;
 }
+
+@media all and (max-width: 1450px) {
+  .technologies {
+    width: 100%;
+  }  
+}
+
+@media all and (max-width: 1024px) {
+  .technologies {
+    flex-direction: column;
+  }  
+}

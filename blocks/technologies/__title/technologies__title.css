@@ -7,3 +7,17 @@
   font-size: 40px;
   line-height: 46px;
 }
+
+@media all and (max-width: 1450px) {
+  .technologies__title {
+    margin-left: 5%;
+  }  
+}
+
+@media all and (max-width: 1028px) {
+  .technologies__title {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 34px;
+  }  
+}
