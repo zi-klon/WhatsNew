@@ -12,3 +12,10 @@
   line-height: 22px;
   color: #1a1b22;
 }
+
+@media all and (max-width: 1024px){
+  .commits__mail {
+    top: 27px;
+    left: 61px;
+  }
+}

@@ -11,3 +11,16 @@
   line-height: 30px;
   color: #1a1b22;
 }
+
+@media all and (max-width: 1280px){
+  .commits__author {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media all and (max-width: 1024px){
+  .commits__author {
+    top: 0;
+  }
+}

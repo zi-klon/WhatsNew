@@ -5,7 +5,7 @@ export let mySwiper = new Swiper ('.swiper-container', {
   loop: true,
   centeredSlides: true,
   spaceBetween: 16,
-  slidesPerView: 4,
+  slidesPerView: 1,
   roundLengths: true,
 
   pagination: {
@@ -17,6 +17,17 @@ export let mySwiper = new Swiper ('.swiper-container', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  slideClass: 'commits__commit',
   
+  breakpoints: {
+    768: {
+      slidesPerView: 2
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 8,
+    },
+    1280: {
+      slidesPerView: 4
+    }
+  }
 }) 

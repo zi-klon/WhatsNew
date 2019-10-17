@@ -1,0 +1,8 @@
+@import url('./_left/commits__blur_left.css');
+@import url('./_right/commits__blur_right.css');
+.commits__blur {
+  height: 100%;
+  width: 6%;
+  position: absolute;
+  z-index: 2;
+}

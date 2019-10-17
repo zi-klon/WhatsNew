@@ -18,7 +18,7 @@
   color: #ffffff;
 
   cursor: pointer;
-  transition: background-color 0.5s linear;
+  /* transition: background 0.2s linear; */
 }
 
 .search__button:hover {
@@ -26,8 +26,7 @@
 }
 
 .search__button:active, :focus {
-  background: black;
-  color: #ffffff;
+  background: #2A65CC;
   outline: none;
   border: none;
 }

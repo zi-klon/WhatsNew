@@ -6,6 +6,7 @@
 @import url('./__image/commits__image.css');
 @import url('./__mail/commits__mail.css');
 @import url('./__text/commits__text.css');
+@import url('./__blur/commits__blur.css');
 
 .commits {
   width: 1440px;
@@ -14,4 +15,11 @@
   align-items: center;
 
   background: #f5f6f7;
+  overflow: hidden;
+}
+
+@media all and (max-width: 1450px){
+  .commits {
+    width: 100%;
+  }
 }
