@@ -8,7 +8,7 @@
 .search {
   width: 1440px;
 
-  background: url('../../images/phone-main.jpg') center/cover no-repeat;
+  background: url('./phone-main.jpg') center/cover no-repeat;
 }
 
 @media all and (max-width: 1450px) {
