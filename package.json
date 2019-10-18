@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/zi-klon/WhatsNew/issues"
   },
-  "homepage": "https://zi-klon.github.io/WhatsNew",
+  "homepage": "https://zi-klon.github.io/WhatsNew/",
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
