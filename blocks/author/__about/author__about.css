@@ -1,0 +1,30 @@
+.author__about {
+  margin: 51px 0 0 56px;
+  width: 40%;
+}
+
+@media all and (max-width: 1450px) {
+  .author__about {
+    margin-left: 4%;
+
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .author__about {
+    width: 55%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .author__about {
+    margin: 0 0 0 4%;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .author__about {
+    margin: 24px 0 0;
+    width: 90%;
+  }
+}

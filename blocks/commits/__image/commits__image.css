@@ -1,0 +1,10 @@
+.commits__image {
+  margin-right: 16px;
+}
+
+@media all and (max-width: 1024px){
+  .commits__image {
+    width: 48px;
+    margin-right: 12px;
+  }
+}

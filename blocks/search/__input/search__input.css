@@ -1,0 +1,26 @@
+.search__input {
+  width: 66%;  
+  margin-left: 24px;
+
+  border: none;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #B6BCBF;
+}
+
+.search__input:focus, :active {
+  outline: none;
+  color: #1A1B22;
+  background: #ffffff;
+}
+
+@media all and (max-width: 425px){
+  .search__input {
+    width: 90%;
+    margin-left: 0;  
+  }
+}

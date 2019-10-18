@@ -1,0 +1,30 @@
+.result__media {
+  position: absolute;
+  margin:0;
+  bottom: 0;
+  left: 6%;
+  padding-bottom: 24px;  
+
+  color: #b6bcbf;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media all and (max-width: 1024px) {
+  .result__media {
+    padding-bottom: 16px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .result__media {
+    position: unset;
+    width: 89%;
+    align-self: center;
+
+    margin: 10px 0 0;
+  }
+}

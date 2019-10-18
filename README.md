@@ -55,4 +55,4 @@
 2. build-сборка - продакшн сборка. Запускается командой `npm run build`;
 3. deploy-сборка - для опубликования на Github pages. Запускается командой `npm run build`;
 
-## Перейти на сайт можно по ссылке <https://zi-klon.github.io/WhatsNew/># WhatsNew
+## Перейти на сайт можно по ссылке <https://zi-klon.github.io/WhatsNew/>

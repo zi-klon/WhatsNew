@@ -1,0 +1,40 @@
+.stat__table {
+  width: 86%;
+  margin: 48px 0 80px 104px;
+  
+  display: grid;
+  grid-template-columns: 104px 1fr 1fr 1fr 1fr;
+  grid-template-rows: 45px 15px 30px repeat(6, 80px) 40px;
+  grid-template-areas:
+    'datetitle numbertitle numbertitle numbertitle numbertitle'
+    'line line line line line' 
+    '. marks marks marks marks'
+    'date_1 number_1 number_1 number_1 number_1'
+    'date_2 number_2 number_2 number_2 number_2 '
+    'date_3 number_3 number_3 number_3 number_3'
+    'date_4 number_4 number_4 number_4 number_4'
+    'date_5 number_5 number_5 number_5 number_5'
+    'date_6 number_6 number_6 number_6 number_6'
+    'date_7 number_7 number_7 number_7 number_7'
+    '. marks_down marks_down marks_down marks_down';
+}
+
+@media all and (max-width: 1450px){
+  .stat__table {
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 1028px){
+  .stat__table {
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (max-width: 425px){
+  .stat__table {
+    grid-template-columns: 25% 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px 15px 30px repeat(6, 55px) 40px;
+  }
+}

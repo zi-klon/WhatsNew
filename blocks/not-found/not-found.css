@@ -1,0 +1,29 @@
+@import url('./__eye/not-found__eye.css');
+@import url('./__picture-container/not-found__picture-container.css');
+@import url('./__picture/not-found__picture.css');
+@import url('./__subtitle/not-found__subtitle.css');
+@import url('./__title/not-found__title.css');
+
+.not-found {
+  width: 1440px;
+  height: 374px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #F5F6F7;
+}
+
+@media all and (max-width: 1450px) {
+  .not-found {
+    width: 100%
+  }
+}
+
+@media all and (max-width: 768px) {
+  .not-found {
+    height: 250px;
+  }
+}
+

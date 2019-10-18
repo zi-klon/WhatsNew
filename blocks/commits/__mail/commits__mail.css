@@ -1,0 +1,21 @@
+.commits__mail {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 48px;
+  left: 80px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1a1b22;
+}
+
+@media all and (max-width: 1024px){
+  .commits__mail {
+    top: 27px;
+    left: 61px;
+  }
+}

@@ -1,0 +1,25 @@
+.result__date {
+  margin: 20px 0 0;
+  width: 86%;
+  align-self: center;
+
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #B6BCBF;
+}
+
+@media all and (max-width: 1024px) {
+  .result__date {
+    margin-top: 16px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .result__date {
+    width: 89%;
+  }
+}

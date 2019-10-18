@@ -1,0 +1,24 @@
+.description__text {
+  margin: 24px 0 94px 104px ;
+
+  width: 820px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media all and (max-width: 1450px) {
+  .description__text {
+    margin-left: 5%;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .description__text {
+    width: 90%;
+    margin-top: 16px;
+  }
+}

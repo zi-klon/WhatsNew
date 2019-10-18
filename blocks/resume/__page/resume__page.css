@@ -1,0 +1,6 @@
+.resume__page {
+  color: #1a1b22;
+}
+.resume__page:last-of-type {
+  color: #b6bcbf;
+}

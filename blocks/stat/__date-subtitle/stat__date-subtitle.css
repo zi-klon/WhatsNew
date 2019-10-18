@@ -1,0 +1,11 @@
+.stat__date-subtitle {
+  margin: 0;
+  grid-area: datetitle;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #b6bcbf;
+}

@@ -1,0 +1,7 @@
+.commits__author-info {
+  margin: 16px 0 0;
+
+  position: relative;
+
+  display: flex;
+}

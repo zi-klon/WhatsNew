@@ -1,0 +1,14 @@
+.technologies__item {
+  margin-right: 70px;
+  text-align: center;
+}
+
+.technologies__item:last-of-type {
+  margin-right: 0;
+}
+
+@media all and (max-width: 1024px) {
+  .technologies__item {
+    margin-right: 0;
+  }  
+}

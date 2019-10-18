@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  transition: opacity 0.5s ease-out;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+.link:active, :focus {
+  background: unset;
+}

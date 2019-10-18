@@ -1,0 +1,11 @@
+.not-found__eye.not-found__eye_left {
+  top: 26px;
+  left: 27px;
+}
+
+@media all and (max-width: 768px) {
+  .not-found__eye.not-found__eye_left {
+    top: 18px;
+    left: 20px;
+  }
+}
