@@ -9,17 +9,21 @@
   grid-row-gap: 16px;
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 700px) {
   .result__item-container {
     margin-top: 40px;
+    width: 95%;
+
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 8px;
+    grid-column-gap: 2%;
   }  
 }
+
 @media all and (max-width: 425px) {
   .result__item-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    width: 90%;
   }
 }

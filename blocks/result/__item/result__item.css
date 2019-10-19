@@ -19,6 +19,12 @@
   }
 }
 
+@media all and (max-width: 700px) {
+  .result__item {
+    height: 480px;
+  }
+}
+
 @media all and (max-width: 425px) {
   .result__item {
     height: auto;
