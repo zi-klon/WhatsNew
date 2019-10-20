@@ -1,17 +1,10 @@
+@import url('../blocks/body/body.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/content/content.css');
-@import url('../blocks/search/search.css');
-@import url('../blocks/preloader/preloader.css');
-@import url('../blocks/not-found/not-found.css');
-@import url('../blocks/result/result.css');
-@import url('../blocks/link/link.css');
-@import url('../blocks/author/author.css');
-@import url('../blocks/footer/footer.css');
-@import url('../blocks/stat/stat.css');
-@import url('../blocks/description/description.css');
-@import url('../blocks/technologies/technologies.css');
-@import url('../blocks/commits/commits.css');
 @import url('../blocks/resume/resume.css');
+@import url('../blocks/stat/stat.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/link/link.css');
 
 @font-face {
   font-family: 'Roboto';
@@ -35,11 +28,4 @@
   font-family: 'Source Sans Pro';
   font-style: normal;
   src: url('../fonts/sourcesanspro.woff') format('woff');
-}
-
-.body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }

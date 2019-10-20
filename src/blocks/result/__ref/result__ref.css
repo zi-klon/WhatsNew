@@ -23,8 +23,8 @@
   right: -15px;
 }
 
-.result__ref:hover, :active {
-  background: inherit;
+ .result__ref:hover, :active {
+  background: #F5F6F7;
 }
 
 @media all and (max-width: 650px) {

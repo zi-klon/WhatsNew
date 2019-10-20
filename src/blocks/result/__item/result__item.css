@@ -13,9 +13,19 @@
   overflow: hidden;
 }
 
+.result__item:hover {
+  cursor: pointer;
+}
+
 @media all and (max-width: 768px) {
   .result__item {
     height: 420px;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .result__item {
+    height: 480px;
   }
 }
 
